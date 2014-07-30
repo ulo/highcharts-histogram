@@ -1,6 +1,7 @@
 /**
  * Histogram extension for highcharts Javascript graph library
- *
+ * https://github.com/ulo/highcharts-histogram
+ * 
  * (c) 2014 Ulrich Omasits
  */
 
