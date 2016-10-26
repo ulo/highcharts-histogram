@@ -52,7 +52,10 @@
             { // fixed settings
                 chart: { type: 'column' },
                 xAxis: {startOnTick: true, endOnTick: true},
-                series: [{ data: binData }]
+                series: [{
+                    name: userOptions.series[0].name || null,
+                    data: binData
+                }]
             }
         );
         
